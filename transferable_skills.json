@@ -1,0 +1,17 @@
+{
+  "widget": "transferable_skills",
+  "title": "Your Transferable Skills",
+  "type": "genai_output",
+  "input": "student_profile",
+  "count": "8–12",
+  "output": {
+    "skill": "Transferable skill name",
+    "evidence": "Evidence from student experience",
+    "employer_value": "Why employers may value it"
+  },
+  "rules": [
+    "Use evidence from the student's actual experience",
+    "Do not invent experience",
+    "Do not treat every missing technical skill as a weakness"
+  ]
+}
