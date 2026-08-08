@@ -1,0 +1,23 @@
+{
+  "widget": "first_career_action",
+  "title": "🚀 Your First Career Action This Week",
+  "type": "genai_output",
+  "input": [
+    "primary_target_role",
+    "skill_gap_map",
+    "career_roadmap",
+    "career_readiness"
+  ],
+  "output": {
+    "actions": "1–3 specific actions",
+    "deadline": "Within the next 7 days",
+    "reason": "Why each action matters",
+    "completion_check": "How the student can verify completion"
+  },
+  "rules": [
+    "Actions must be realistic",
+    "Actions must directly connect to the target role",
+    "Prioritize the next achievable step",
+    "Do not overwhelm the student"
+  ]
+}
