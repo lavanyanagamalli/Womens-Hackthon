@@ -1,0 +1,37 @@
+{
+  "widget": "recovery_plan",
+  "title": "If You Fall Behind",
+  "type": "genai_output",
+  "input": [
+    "career_roadmap",
+    "weekly_schedule"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "action": "Identify the reason for the delay"
+    },
+    {
+      "step": 2,
+      "action": "Choose the most important unfinished task"
+    },
+    {
+      "step": 3,
+      "action": "Create a Reset Week"
+    },
+    {
+      "step": 4,
+      "action": "Postpone low-priority activities"
+    },
+    {
+      "step": 5,
+      "action": "Gradually return to the original plan"
+    }
+  ],
+  "rules": [
+    "Do not make the plan longer",
+    "Do not overwhelm the student",
+    "Use supportive and realistic language"
+  ],
+  "recommitment_statement": true
+}
