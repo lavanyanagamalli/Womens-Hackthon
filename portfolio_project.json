@@ -1,0 +1,21 @@
+{
+  "widget": "portfolio_project",
+  "title": "Your Portfolio Proof of Learning",
+  "type": "genai_output",
+  "input": [
+    "primary_target_role",
+    "skill_gap_map"
+  ],
+  "output": {
+    "project_title": "Project title",
+    "problem": "Problem being solved",
+    "skills": "Skills demonstrated",
+    "tools": "Tools / technologies",
+    "development_steps": "Step-by-step development plan",
+    "completion_time": "Expected completion time",
+    "deliverables": "Final deliverables",
+    "employer_presentation": "How to present it to an employer",
+    "mini_version": "2–3 week smaller version",
+    "resume_bullet": "One concise resume bullet"
+  }
+}
