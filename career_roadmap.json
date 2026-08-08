@@ -1,0 +1,38 @@
+{
+  "widget": "career_roadmap",
+  "title": "Your 30 / 60 / 90-Day Career Roadmap",
+  "type": "genai_output",
+  "input": [
+    "student_profile",
+    "primary_target_role",
+    "skill_gap_map"
+  ],
+  "phases": [
+    {
+      "name": "Days 1–30: Foundation",
+      "focus": "Essential skills and quick wins"
+    },
+    {
+      "name": "Days 31–60: Practice & Portfolio",
+      "focus": "Hands-on work and portfolio development"
+    },
+    {
+      "name": "Days 61–90: Career Readiness",
+      "focus": "Resume, LinkedIn, interviews and appropriate job applications"
+    }
+  ],
+  "each_phase_must_include": [
+    "One clear goal",
+    "4–6 concrete actions",
+    "Learning/practice activities",
+    "One portfolio/proof artifact",
+    "One measurable milestone",
+    "One reflection question"
+  ],
+  "rules": [
+    "Adapt the plan to available weekly hours",
+    "Adapt the plan to the student's budget",
+    "Prefer free or low-cost learning options",
+    "Do not overload the student"
+  ]
+}
