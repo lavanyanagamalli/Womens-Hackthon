@@ -1,0 +1,19 @@
+{
+  "widget": "career_direction",
+  "title": "Your Career Direction",
+  "type": "genai_output",
+  "input": "student_profile",
+  "output": {
+    "roles": "2–3 realistic entry-level roles",
+    "reasoning": "Why each role fits",
+    "existing_strengths": "Strengths that can be used immediately",
+    "requirements": "Typical entry-level requirements",
+    "responsibilities": "Main responsibilities",
+    "skill_development": "Skills that need improvement"
+  },
+  "rules": [
+    "Do not recommend a role only because it is popular",
+    "Prioritize realistic fit",
+    "Do not guarantee employment"
+  ]
+}
