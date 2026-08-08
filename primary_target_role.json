@@ -1,0 +1,24 @@
+{
+  "widget": "primary_target_role",
+  "title": "Your Primary Target Role",
+  "type": "genai_output",
+  "input": [
+    "student_profile",
+    "career_direction",
+    "transferable_skills"
+  ],
+  "output": {
+    "primary_role": "One realistic entry-level role",
+    "why": "Why this is the best next step",
+    "existing_skills": "Skills already available",
+    "skills_to_develop": "Skills requiring development",
+    "entry_expectations": "Typical entry-level expectations",
+    "long_term_connection": "How this role supports the longer-term goal",
+    "alternative": "Optional alternative role"
+  },
+  "rules": [
+    "Select exactly one primary target role",
+    "Do not guarantee employment or salary",
+    "Mention an alternative only when genuinely suitable"
+  ]
+}
