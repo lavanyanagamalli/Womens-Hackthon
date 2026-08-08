@@ -1,0 +1,37 @@
+{
+  "widget": "career_readiness",
+  "title": "Your Career Readiness Score",
+  "type": "genai_output",
+  "input": [
+    "skill_gap_map",
+    "portfolio_project",
+    "interview_evidence",
+    "student_profile"
+  ],
+  "scoring": {
+    "target_role_skill_development": 30,
+    "portfolio_proof_of_work": 25,
+    "practical_project_experience": 20,
+    "resume_professional_profile": 10,
+    "interview_readiness": 10,
+    "career_actions": 5
+  },
+  "levels": {
+    "0-39": "Foundation Stage",
+    "40-59": "Developing",
+    "60-74": "Nearly Ready",
+    "75-89": "Application Ready",
+    "90-100": "Strongly Prepared"
+  },
+  "output": {
+    "score": "0–100",
+    "level": "Readiness level",
+    "breakdown": "Points earned in each category",
+    "improvement_priorities": "Top areas to improve"
+  },
+  "rules": [
+    "The score is an educational progress indicator",
+    "It is not a prediction or guarantee of employment",
+    "Recommend reassessment every 2–3 weeks"
+  ]
+}
