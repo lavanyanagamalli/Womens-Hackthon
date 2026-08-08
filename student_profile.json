@@ -1,0 +1,89 @@
+{
+  "widget": "student_profile",
+  "title": "Tell Us About You",
+  "type": "form",
+  "fields": [
+    {
+      "id": "education",
+      "label": "Education / Degree / Specialization",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "id": "skills",
+      "label": "Current Technical and Non-Technical Skills",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "id": "experience",
+      "label": "Internships, Projects, Certifications, Volunteering or Other Experience",
+      "type": "textarea"
+    },
+    {
+      "id": "enjoyed_tasks",
+      "label": "3–5 Tasks or Projects You Enjoyed",
+      "type": "textarea"
+    },
+    {
+      "id": "struggled_tasks",
+      "label": "3–5 Tasks or Areas You Struggle With",
+      "type": "textarea"
+    },
+    {
+      "id": "career_interests",
+      "label": "Career Interests and Preferred Industries",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "id": "work_type",
+      "label": "Preferred Work Type",
+      "type": "select",
+      "options": [
+        "Remote",
+        "Hybrid",
+        "On-site"
+      ]
+    },
+    {
+      "id": "location",
+      "label": "Preferred Location",
+      "type": "text"
+    },
+    {
+      "id": "hours_per_week",
+      "label": "Learning Hours Available Per Week",
+      "type": "number",
+      "required": true
+    },
+    {
+      "id": "budget",
+      "label": "Learning Budget",
+      "type": "select",
+      "options": [
+        "₹0",
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    {
+      "id": "constraints",
+      "label": "Practical Constraints",
+      "type": "textarea"
+    },
+    {
+      "id": "confidence",
+      "label": "Career Confidence (1–10)",
+      "type": "number",
+      "min": 1,
+      "max": 10
+    },
+    {
+      "id": "learning_style",
+      "label": "Preferred Learning Style",
+      "type": "text"
+    }
+  ]
+}
