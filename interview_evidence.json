@@ -1,0 +1,20 @@
+{
+  "widget": "interview_evidence",
+  "title": "Interview & Employer Evidence",
+  "type": "genai_output",
+  "input": [
+    "primary_target_role",
+    "portfolio_project"
+  ],
+  "output": {
+    "interview_questions": "3–5 likely interview questions",
+    "practical_task": "One practical interview task",
+    "strong_answer_criteria": "What a good answer should demonstrate",
+    "portfolio_explanation": "How to discuss the portfolio project",
+    "resume_bullet": "One concise resume bullet"
+  },
+  "rules": [
+    "Focus on evidence",
+    "Do not create unsupported claims"
+  ]
+}
