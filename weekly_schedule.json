@@ -1,0 +1,36 @@
+{
+  "widget": "weekly_schedule",
+  "title": "Your Personalized Weekly Schedule",
+  "type": "genai_output",
+  "input": [
+    "student_profile",
+    "career_roadmap"
+  ],
+  "normal_week": [
+    "Learning",
+    "Hands-on practice",
+    "Portfolio work",
+    "Resume / LinkedIn",
+    "Networking",
+    "Interview preparation",
+    "Job applications when appropriate"
+  ],
+  "adaptive_modes": {
+    "minimum_viable_week": {
+      "sessions": "1–2 short sessions",
+      "goal": "Maintain progress during busy weeks"
+    },
+    "time_doubles": {
+      "instruction": "Explain how to use additional available time productively"
+    },
+    "time_drops_by_half": {
+      "keep": "Highest-priority activities",
+      "postpone": "Lower-priority activities",
+      "remove_temporarily": "Non-essential activities"
+    }
+  },
+  "rules": [
+    "Keep the schedule achievable",
+    "Never create an overloaded schedule"
+  ]
+}
