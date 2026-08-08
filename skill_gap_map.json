@@ -1,0 +1,36 @@
+{
+  "widget": "skill_gap_map",
+  "title": "Your Skill-Gap Map",
+  "type": "genai_output",
+  "input": "primary_target_role",
+  "categories": [
+    "Core Technical Skills",
+    "Domain Knowledge",
+    "Tools / Technology",
+    "Soft Skills",
+    "Portfolio / Proof of Work"
+  ],
+  "levels": [
+    "Strong",
+    "Moderate",
+    "Gap",
+    "Not Exposed"
+  ],
+  "priorities": [
+    "High",
+    "Medium",
+    "Low"
+  ],
+  "output": {
+    "skill": "Skill",
+    "category": "Skill category",
+    "current_level": "Strong / Moderate / Gap / Not Exposed",
+    "priority": "High / Medium / Low",
+    "improvement_method": "How to improve",
+    "employer_evidence": "Evidence that demonstrates the skill"
+  },
+  "quick_wins": {
+    "count": "3–5",
+    "timeframe": "30 days"
+  }
+}
