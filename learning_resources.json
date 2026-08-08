@@ -1,0 +1,23 @@
+{
+  "widget": "learning_resources",
+  "title": "Recommended Learning & Career Resources",
+  "type": "genai_output",
+  "input": "primary_target_role",
+  "count": "5–8",
+  "output": {
+    "resource_name": "Resource name",
+    "purpose": "What it teaches",
+    "cost": "Free / Low / Medium / High",
+    "time_commitment": "Approximate time if known",
+    "why_fit": "Why it fits the student",
+    "expected_outcome": "Expected outcome"
+  },
+  "rules": [
+    "Do not invent URLs",
+    "Do not invent prices",
+    "Do not invent courses",
+    "Do not invent certifications",
+    "Do not invent programs",
+    "If current information cannot be confirmed, tell the student to verify availability, pricing and eligibility"
+  ]
+}
